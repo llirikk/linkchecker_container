@@ -1,19 +1,24 @@
-# linkchecker_container
+# LinkcheckerContainer
+Container for linkchecker tool. 
+## Requirements
+Docker>=19.03.12
+
 ## Installation
-build docker-image:
+Build docker-image:
 ```sh
   $ ./setup.sh
 ```
+
 ## Usage
-create inputfile:
+Create inputfile:
 ```sh
   $ echo https://www.example.com/ > ./in/input
 ```
-check out and modify config if need:
+Check out and modify config if need:
 ```sh
   $ less ./conf/linkcheckerrc
 ```
-run container:
+Run container:
 ```sh
   $ ./run.sh
 ```
